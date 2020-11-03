@@ -1,0 +1,1 @@
+call docker run -d --name php-apache-test -p 80:80 -v ${PWD}/src/:/var/www/html/ hello-world
